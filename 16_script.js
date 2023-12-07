@@ -7,7 +7,7 @@ function showFirstMessage() { //Объявление функции
 }
 showFirstMessage(); //Вызов функции
 //______________________________________
-function showFirstMessage2(text) { //в скобках      указывать аргумент, их может быть много
+function showFirstMessage2(text) { //в скобках указывать аргумент, их может быть много
   console.log(text);
   let num = 10;//Локальная переменная, только внутри функции
 }
@@ -27,8 +27,8 @@ function showFirstMessage4(text) { //
   let num3 = 25;//
   console.log(num3);
 }
-showFirstMessage4('Hello World!'); //
-console.log(num3);
+showFirstMessage4('Hello World!'); 
+console.log(num3);//Сначала выведит Hello World!, затем 25, затем 30.
 //___________________________________________
 function calc(a, b) {
   return (a + b);//после return ничего не будет исполнятся
