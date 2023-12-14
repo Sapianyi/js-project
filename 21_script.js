@@ -44,4 +44,4 @@ console.log(arr2);
 function compareNum(a, b) {
   return a - b;
 }
-//_________________________
+
